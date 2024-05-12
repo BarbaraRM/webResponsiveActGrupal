@@ -1,0 +1,11 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-one: #159A9C;
+    --color-two: #B4BEC9;
+    --color-three: #002333;
+    --color-four: #DEEFE7;
+    --color-five: #F2F4F3;
+}

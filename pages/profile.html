@@ -3,14 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../stylesheets/profile.css">
-    <link rel="stylesheet" href="./stylesheets/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Perfil de Usuario</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <script src="../js/main.js"></script>
-    <script src="../js/profile.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Perfil del Usuario -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <img src="C:/Users/Iamju/OneDrive/Escritorio/New folder/webResponsiveActGrupal/img/Juan _foto.png" class="rounded-circle img-fluid profile-img mb-3" alt="Perfil">
+                        <h3>Juan Iglesias</h3>
+                        <p class="text-muted"><i class="fas fa-star"></i> Cliente estrella</p>
+                        <p class="text-muted">Los Ceibos , Guayaquil , Ecuador</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-briefcase mr-2"></i> Empresario</li>
+                            <li><i class="fas fa-code mr-2"></i> Desarrollador</li>
+                            <li><i class="fas fa-dollar-sign mr-2"></i> Financiero</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información del Usuario -->
+            <div class="col-md-8">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5>Nombre Completo</h5>
+                        <p>Juan Iglesias</p>
+                        <h5>Email</h5>
+                        <p>juaniglesias@example.com</p>
+                        <h5>Phone</h5>
+                        <p>(+593) 234-5678</p>
+                        <h5>Mobile</h5>
+                        <p>(+593) 765-4321</p>
+                        <h5>Direccion</h5>
+                        <p>Los Ceibos , Guayaquil , Ecuador</p>
+                    </div>
+                </div>
+
+                <!-- Estado del Proyecto -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p>Cuentas por pagar</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-width="70">70%</div>
+                                </div>
+                                <p>Inversiones</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-width="50">50%</div>
+                                </div>
+                                <p>Ahorros</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" data-width="40">40%</div>
+                                </div>
+                                <p>Prestamos</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" data-width="30">30%</div>
+                                </div>
+                                <p>Pagos Moviles</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-width="60">60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p>Pagos desde la PC</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" data-width="40">40%</div>
+                                </div>
+                                <p>Educacion Financiera</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" data-width="50">50%</div>
+                                </div>
+                                <p>Tarjetas de Credito</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" data-width="40">40%</div>
+                                </div>
+                                <p>Responsabilidad</p>
+                                <div class="progress mb-3">
+                                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" data-width="100">100%</div>
+                                </div>
+                                <p>Cobertura de Seguros</p>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-width="60">60%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="profile.js"></script>
 </body>
 </html>

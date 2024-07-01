@@ -80,9 +80,5 @@ document.addEventListener("DOMContentLoaded", function () {
   const formAgregarEmpresa = document.getElementById("formAgregarEmpresa");
   formAgregarEmpresa.addEventListener("submit", agregarEmpresa);
 
-  // Logout function to remove user token from localStorage
-  document.getElementById("logout").addEventListener("click", function () {
-    localStorage.removeItem("user");
-    window.location.href = "/";
-  });
+
 });

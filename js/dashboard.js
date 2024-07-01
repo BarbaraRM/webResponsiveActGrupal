@@ -45,13 +45,3 @@ document.addEventListener("DOMContentLoaded", function () {
     fetchData(symbols[2], 'table-body-3');
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const logoutLink = document.getElementById('logout');
-    
-    logoutLink.addEventListener('click', function (event) {
-        event.preventDefault(); // Prevenir comportamiento predeterminado del enlace
-        localStorage.removeItem('user'); // Eliminar el token del usuario del localStorage
-        // Redirigir a la página de inicio o a una página de login
-        window.location.href = '/pages/login.html';
-    });
-});

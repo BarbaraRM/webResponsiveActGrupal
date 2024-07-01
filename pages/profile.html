@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/stylesheets/profile.css">
     <link rel="stylesheet" href="../stylesheets/main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="../js/verifySession.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-custom">
@@ -48,9 +49,8 @@
                     d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
                   />
                 </svg>
-                Nombre del Usuario
               </a>
-              <ul class="dropdown-menu" >
+              <ul class="dropdown-menu" i>
                 <li>
                   <a class="dropdown-item" href="/pages/profile.html"
                     >Mi perfil</a
@@ -65,16 +65,17 @@
           </ul>
         </div>
       </nav>
+
     <div class="container mt-5">
         <div class="row">
             <!-- Perfil del Usuario -->
             <div class="col-md-4">
                 <div class="card text-center">
                     <div class="card-body d-flex flex-column align-items-center">
-                        <img src="/img/Juan _foto.png" class="rounded-circle img-fluid profile-img mb-3" alt="Perfil">
-                        <h3>Juan Iglesias</h3>
+                        <img src="../img/Juan _foto.png" class="rounded-circle img-fluid profile-img mb-3" alt="Perfil">
+                        <h3 id="profile-username">Juan Iglesias</h3>
                         <p class="text-muted"><i class="fas fa-star"></i> Cliente estrella</p>
-                        <p class="text-muted">Los Ceibos , Guayaquil , Ecuador</p>
+                        <p class="text-muted" id="profile-address">Los Ceibos , Guayaquil , Ecuador</p>
                     </div>
                     <div class="card-footer">
                         <ul class="list-unstyled">
@@ -91,15 +92,13 @@
                 <div class="card mb-3">
                     <div class="card-body">
                         <h5>Nombre Completo</h5>
-                        <p>Juan Iglesias</p>
+                        <p id="profile-username">Juan Iglesias</p>
                         <h5>Email</h5>
-                        <p>juaniglesias@example.com</p>
-                        <h5>Phone</h5>
-                        <p>(+593) 234-5678</p>
-                        <h5>Mobile</h5>
-                        <p>(+593) 765-4321</p>
-                        <h5>Direccion</h5>
-                        <p>Los Ceibos , Guayaquil , Ecuador</p>
+                        <p id="profile-email">juaniglesias@example.com</p>
+                        <h5>Teléfono</h5>
+                        <p id="profile-phone">(+593) 234-5678</p>
+                        <h5>Dirección</h5>
+                        <p id="profile-address">Los Ceibos , Guayaquil , Ecuador</p>
                     </div>
                 </div>
 
@@ -162,10 +161,10 @@
             </div>
         </div>
     </div>
-
+    <script src="../js/logout.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="/js/profile.js"></script>
+    <script src="../js/profile.js"></script>
 </body>
 </html>

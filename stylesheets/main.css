@@ -9,3 +9,32 @@
     --color-four: #DEEFE7;
     --color-five: #F2F4F3;
 }
+
+.navbar-custom {
+    background-color: #000000;
+    width: 100%;
+}
+.nav-pills .nav-link {
+    color: #ffffff;
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link:hover {
+    background-color: #1a1a1a;
+}
+.dropdown-menu {
+    background-color: #1a1a1a;
+    border: none;
+}
+.dropdown-item {
+    color: #ffffff;
+}
+.dropdown-item:hover {
+    background-color: #333333;
+}
+.dropdown-divider {
+    border-top: 1px solid #ffffff;
+}
+svg {
+    margin-right: 0.5rem;
+}

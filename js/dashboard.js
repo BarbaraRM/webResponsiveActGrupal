@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const apiKey = '6844ef2390msh7e333101398ad58p1a29a0jsn19bb6d312a99';
+    const apiKey = 'a9d71c4d81msh1f731b25e367f03p1c913djsn2573839cf6cc';
     const symbols = ['AG:NYSE', 'NEM:NYSE', 'RGLD:NASDAQ'];
     const period = 'QUARTERLY';
     const language = 'en';

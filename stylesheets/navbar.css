@@ -1,0 +1,48 @@
+/* styles.css */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-one: #159A9C;
+    --color-two: #B4BEC9;
+    --color-three: #002333;
+    --color-four: #DEEFE7;
+    --color-five: #F2F4F3;
+}
+
+body {
+    background-color: var(--color-five);
+}
+
+.navbar-brand {
+    color: var(--color-one) !important;
+}
+
+.nav-link {
+    color: var(--color-four) !important;
+}
+
+.nav-link:hover {
+    color: var(--color-one) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-one);
+    border-color: var(--color-one);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-two);
+    border-color: var(--color-two);
+}
+
+.btn-secondary {
+    background-color: var(--color-three);
+    border-color: var(--color-three);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-four);
+    border-color: var(--color-four);
+}

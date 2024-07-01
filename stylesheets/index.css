@@ -1,0 +1,182 @@
+:root {
+    --color-one: #159A9C;
+    --color-two: #B4BEC9;
+    --color-three: #002333;
+    --color-four: #DEEFE7;
+    --color-five: #F2F4F3;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-three);
+}
+
+body {
+    background-color: var(--color-five);
+}
+
+.navbar {
+    background-color: var(--color-four);
+}
+
+.navbar-brand {
+    color: var(--color-three) !important;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    border-color: var(--color-two);
+}
+
+.navbar-toggler-icon {
+    color: var(--color-three);
+}
+
+
+
+
+.btn-custom {
+    background-color: var(--color-one);
+    color: white;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: var(--color-three);
+    color: white;
+}
+
+#carouselExampleDark {
+    margin-bottom: 50px; /* Puedes ajustar el valor del margen según lo necesites */
+}
+
+.carousel-item {
+    background-color: var(--color-four);
+}
+
+.carousel-caption {
+    color: var(--color-three);
+}
+
+.img-fluid {
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+
+div.col-md-4 img.img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.col-sm-6 h5 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--color-one);
+}
+
+.col-sm-6 h6 {
+    font-size: 30px;
+    color: var(--color-three);
+}
+
+.row.g-0.text-center {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.row.g-0.text-center .col {
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+    animation: moveLeftToRight 10s linear infinite;
+}
+
+@keyframes moveLeftToRight {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.col img {
+    width: 100%;
+    display: block;
+}
+
+.row .card {
+    margin-top: 50px;
+    border: 1px solid var(--color-two);
+    background-color: var(--color-four);
+}
+
+.row .card img {
+    width: 500px;
+    height: 600px;
+    width: 100%;
+    display: block;
+    transition: transform 0.3s; /* Agrega una transición suave para el cambio de escala */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas sobre la imagen */
+}
+
+.row .card img:hover {
+    transform: scale(1.04); /* Aplica un ligero zoom (aumenta el tamaño en un 10%) cuando pasas el cursor sobre la imagen */
+}
+
+.card-title {
+    color: var(--color-one);
+}
+
+.card-text {
+    color: var(--color-three);
+}
+
+.container .col-md-2 {
+    margin-top: 100px;
+}
+
+.col-md-2 .fs-6 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.row .row-cols-2 {
+    background-color: var(--color-five);
+}
+
+.col-sm {
+    background-color: var(--color-five);
+}
+
+.container .text-center {
+    margin-top: 30px;
+}
+
+.container .text-center img {
+    width: 70px;
+    height: 70px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.accordion-item {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: var(--color-three);
+    color: white;
+}
+
+footer a {
+    color: var(--color-one);
+}
+
+footer a:hover {
+    color: var(--color-four);
+}
